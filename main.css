@@ -1,0 +1,105 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: "Lato", sans-serif;
+    font-size: 20px;
+}
+.top-bar{
+    text-align: center;
+    margin: 46px;
+    
+}
+.logo{
+    background-color: #ff6b28;
+    padding: 26px;
+    
+}
+.bolo img{
+    width: 100%;
+    height: 100%;
+}
+
+.content{
+    max-width: 1080px;
+    margin: auto;
+    padding: 0 40px;
+}
+
+h1, h2, h3{
+    color: #ff6b28;
+}
+
+#bolo{
+    font-size: 46px;
+}
+
+#Ingredientes{
+    font-size: 28px;
+    margin-bottom: 48px;
+}
+
+#preparo{
+    font-size: 28px;
+    margin-bottom: 48px;
+}
+
+.cartao{
+    padding: 70px 100px;
+    margin-top: 50px;
+    border-radius: 20px;
+    cursor: url(./images/cursor_intrucoes.png), default;
+    
+
+}
+
+.cartao:hover {
+    box-shadow: 8px 8px 15px 12px rgba(205, 205, 205, 0.25);
+}
+
+.cartao-ingredientes{
+    padding: 70px 100px;
+    margin-top: 50px;
+    border-radius: 20px;
+    cursor: url(./images/cursor_ingredientes.png), default;
+}
+
+.cartao-ingredientes:hover{
+    box-shadow: 8px 8px 15px 12px rgba(205, 205, 205, 0.25);
+}
+
+.cartao-preparo{
+    padding: 70px 100px;
+    margin-top: 50px;
+    border-radius: 20px;
+    cursor: url(./images/cursor_preparo.png), default;
+}
+
+.cartao-preparo:hover{
+    box-shadow: 8px 8px 15px 12px rgba(205, 205, 205, 0.25);
+}
+
+li{
+    margin-bottom: 16px;
+}
+.lista-ingredientes{
+    margin-bottom: 50px;
+}
+
+.botao{
+    background-color: #ff6b28;
+    text-decoration: none;
+    color: white;
+    padding: 16px;
+    border-radius: 20px;
+}
+
+.rodape{
+    background-color: #ff6b28;
+    padding: 26px;
+    text-align: center;
+    margin: 46px 46px;
+}
+
+.p{
+    line-height: 28px;
+}
